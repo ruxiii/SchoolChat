@@ -1,0 +1,11 @@
+﻿@model SchoolChat.Models.Message
+
+@using (Html.BeginForm(actionName: "New", controllerName: "Messages", method: FormMethod.Post))
+{
+    @Html.Label("TextMessage", "Message")
+    <br />
+    @Html.TextBox("TextMessage", null, new {@class = "form-control"})
+    @Html.ValidationMessageFor(m => m.TextMessage, "", new {@class = "text-danger"})
+    <br />
+    <button class="btn btn-success" type="submit">Send message</button>
+}

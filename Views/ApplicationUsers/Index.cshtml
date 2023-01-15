@@ -1,0 +1,12 @@
+﻿<h2>All users</h2>
+<br />
+@foreach (var appuser in ViewBag.Appusers)
+{
+    <p>@appuser.UserName
+        <div id="ceva">
+            <a href="/ApplicationUsers/Show/@appuser.Id">View user</a>
+        </div>
+    </p>
+    <br />
+    
+}

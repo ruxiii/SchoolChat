@@ -1,0 +1,8 @@
+﻿<h2>All messages</h2>
+@foreach(var m in ViewBag.Messages){
+    <p>@m.TextMessage </p>
+    @if (m.Group!=null) { 
+        <p>@m.Group.GroupName </p>
+    }
+    
+}

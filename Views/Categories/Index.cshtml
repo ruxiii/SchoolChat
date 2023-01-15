@@ -1,0 +1,26 @@
+﻿<h2>All categories</h2>
+<br />
+@foreach (var category in ViewBag.Categories)
+{
+    <h5>@category.CategoryName</h5>
+
+
+    <a href="/Categories/Edit/@category.Id">
+        <button class="btn btn-success">Edit category</button>
+    </a>
+
+    <a href="/Categories/Show/@category.Id">
+        <button class="btn btn-success">View category</button>
+    </a>
+
+    <a href="/Categories/Delete/@category.Id">
+        <button class="btn btn-success">Delete category </button>
+    </a>
+
+    <br />
+    <br />
+}
+</br></br>
+<a href="/Categories/New">
+    <button class="btn btn-success">Add category</button>
+</a>

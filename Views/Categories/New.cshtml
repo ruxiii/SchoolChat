@@ -1,0 +1,22 @@
+﻿@model SchoolChat.Models.Category
+
+<h2>Add Category</h2>
+
+@using (Html.BeginForm(actionName: "New", controllerName: "Categories", method: FormMethod.Post))
+{
+    @Html.ValidationSummary(false, "", new {@class = "text-danger"})
+
+
+    @Html.Label("CategoryName", "Category Name")
+    <br />
+    @Html.TextBox("CategoryName", null, new {@class = "form-control"})
+    @Html.ValidationMessageFor(m => m.CategoryName, null, new {@class = "text-danger"})
+    <br /><br />
+
+
+    <button class="btn btn-success" type="submit">Add Category</button>
+}
+<br />
+<a href="/Categories/Index">
+    <button class="btn btn-success">View all categories</button>
+</a>

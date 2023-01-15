@@ -1,0 +1,30 @@
+﻿@model SchoolChat.Models.ApplicationUser
+
+<p> Details about @Model.UserName :</p>
+<p>Email: @Model.Email</p>
+<p>Role: @ViewBag.Role</p>
+<p>Phone Number: @Model.PhoneNumber</p>
+@*<p>Phone number: @Model.PhoneNumber</p>
+<p>First name: @Model.FirstName</p>
+<p>Last name: @Model.LastName</p>*@
+<div id="ceva1">
+    <a href="/ApplicationUsers/Edit/@Model.Id">Edit user</a>
+</div>
+<br />
+<div id="ceva2">
+    <a href="/ApplicationUsers/Delete/@Model.Id">Delete user</a>
+</div>
+<br />
+@if (ViewBag.Role == "Editor")
+{
+    <div id="ceva3">
+        <a href="/ApplicationUsers/Demote/@Model.Id">Make User</a> 
+    </div>
+}
+else if (ViewBag.Role == "User")
+{
+    <div id="ceva4">
+        <a href="/ApplicationUsers/Promote/@Model.Id">Make Editor</a>
+    </div>
+}
+<br />

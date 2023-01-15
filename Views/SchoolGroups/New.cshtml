@@ -1,0 +1,38 @@
+﻿@model SchoolChat.Models.SchoolGroup
+
+<h2 class = "text-center mt-5">Add a group</h2>
+<br/>
+<div class = "container mt-5">
+    <div class="row">
+        <div class="col-6 offset-3">
+            @using (Html.BeginForm(actionName: "New", controllerName: "SchoolGroups", method: FormMethod.Post))
+            {
+                @Html.Label("GroupName", "Group Name")
+                <br />
+                @Html.TextBox("GroupName", null, new {@class = "form-control"})
+                @Html.ValidationMessageFor(m => m.GroupName, "", new {@class = "text-danger"})
+                <br /><br />
+
+
+                @Html.Label("GroupDescription", "Group Description")
+                <br />
+                @Html.TextArea("GroupDescription", null, new {@class = "form-control"})
+                @Html.ValidationMessageFor(m => m.GroupDescription, "", new {@class = "text-danger"})
+
+                <br /><br/>
+
+
+                <label>Select Category</label>
+                @Html.DropDownListFor(m => m.IdCategory, new SelectList(Model.Categ, "Value", "Text"),
+            "Select Category", new {@class = "form-control"})
+                @Html.ValidationMessageFor(m => m.IdCategory, null, new {@class = "text-danger"})
+                <br /><br />
+
+
+                <button id="add" class="btn btn-success" type="submit">Add Group</button>
+            }
+        </div>
+    </div>
+</div> 
+
+

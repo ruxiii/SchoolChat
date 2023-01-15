@@ -1,0 +1,9 @@
+﻿<h2>Edit message</h2>
+<br />
+<form method="post" action="/Messages/Edit/@ViewBag.Message.IdMessage">
+     <label>Edit text:</label>
+     <br />
+     <input type="text" name="TextMessage" value="@ViewBag.Message.TextMessage" />
+    <br /><br />
+    <button class="btn btn-success" type="submit">Modify</button>
+</form>

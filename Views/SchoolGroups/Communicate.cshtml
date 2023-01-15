@@ -1,0 +1,59 @@
+﻿@model SchoolChat.Models.SchoolGroup
+
+<h1>@Model.GroupName</h1>
+<br/>
+<div id="GroupChat">
+    @foreach (var m in ViewBag.Messages)
+    {
+        @if (@m.own_message)
+        {
+            <div class="own_message">
+                <h5>@m.text</h5>
+                @if (@m.own_message || User.IsInRole("Admin") || User.IsInRole("Editor"))
+                {
+                    <a href="/Messages/Edit/@m.Id">
+                        <img src="~/Resources/pencil.png" style="width:1vw; height:1vw;" />
+                    </a>
+
+                    <a href="/Messages/Delete/@m.Id">
+                        <img src="~/Resources/trashbin.png" style="width:1vw; height:1vw;" />
+                    </a>
+                }
+                <p><small>@m.username, @m.time</small></p>
+            </div>
+
+        }
+
+        else
+        {
+            <div class="notown_message">
+                <h5>@m.text</h5>
+                @if (User.IsInRole("Admin") || User.IsInRole("Editor"))
+                {
+                    <a href="/Messages/Edit/@m.Id">
+                        <img src="~/Resources/pencil.png" style="width:1vw; height:1vw;"/>
+                    </a>
+
+                    <a href="/Messages/Delete/@m.Id">
+                        <img src="~/Resources/trashbin.png" style="width:1vw; height:1vw;" />
+                    </a>
+                }
+                <p><small>@m.username, @m.time</small></p>
+            </div>
+        }
+    }
+</div>
+
+
+@using (Html.BeginForm(actionName: "New", controllerName: "Messages", method: FormMethod.Post))
+{
+    TempData["group_id"] = ViewBag.IdGroup;
+    TempData["userId"] = ViewBag.IdUser;
+
+    @Html.Label("TextMessage", "Message")
+    <br />
+    @Html.TextBox("TextMessage", null, new {@class = "form-control"})
+    <br />
+    <button class="btn btn-success" type="submit">Write a message</button>
+}
+

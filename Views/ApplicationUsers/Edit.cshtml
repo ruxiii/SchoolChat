@@ -1,0 +1,38 @@
+﻿@model SchoolChat.Models.ApplicationUser
+
+@using (Html.BeginForm(actionName: "Edit", controllerName: "ApplicationUsers", method: FormMethod.Post, routeValues: new { id = @Model.Id }))
+{
+    <i class="bi bi-person"></i>
+    @Html.Label("UserName", "Nume utilizator", new { @class = "" })
+
+    <br />
+
+    @Html.EditorFor(m => m.UserName)
+
+    <br />
+    <br />
+
+    <i class="bi bi-envelope"></i>
+    @Html.Label("Email", "Email utilizator", new { @class = "" })
+
+    <br />
+
+    @Html.EditorFor(m => m.Email)
+
+    <br />
+    <br />
+
+    <i class="bi bi-phone"></i>
+    @Html.Label("PhoneNumber", "Numar telefon")
+
+    <br />
+
+    @Html.EditorFor(m => m.PhoneNumber)
+
+    <br />
+    <br />
+ 
+
+    <button id="editare" type="submit">Edit user</button>
+}
+
