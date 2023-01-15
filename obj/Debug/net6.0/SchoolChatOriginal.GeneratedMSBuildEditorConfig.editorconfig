@@ -1,0 +1,172 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = SchoolChatOriginal
+build_property.RootNamespace = SchoolChatOriginal
+build_property.ProjectDir = D:\Users\ruxiii\OneDrive\Desktop\facultate\2.1\DAW\SchoolChat\SchoolChatOriginal\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\Users\ruxiii\OneDrive\Desktop\facultate\2.1\DAW\SchoolChat\SchoolChatOriginal
+build_property._RazorSourceGeneratorDebug = 
+
+[D:/Users/ruxiii/OneDrive/Desktop/facultate/2.1/DAW/SchoolChat/SchoolChatOriginal/Areas/Identity/Pages/Account/Manage/PersonalData.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcUGVyc29uYWxEYXRhLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Users/ruxiii/OneDrive/Desktop/facultate/2.1/DAW/SchoolChat/SchoolChatOriginal/Areas/Identity/Pages/Account/Manage/_ManageNav.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcX01hbmFnZU5hdi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Users/ruxiii/OneDrive/Desktop/facultate/2.1/DAW/SchoolChat/SchoolChatOriginal/Areas/Identity/Pages/Account/Manage/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Users/ruxiii/OneDrive/Desktop/facultate/2.1/DAW/SchoolChat/SchoolChatOriginal/Areas/Identity/Pages/Account/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Users/ruxiii/OneDrive/Desktop/facultate/2.1/DAW/SchoolChat/SchoolChatOriginal/Areas/Identity/Pages/Account/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxfVmlld0ltcG9ydHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Users/ruxiii/OneDrive/Desktop/facultate/2.1/DAW/SchoolChat/SchoolChatOriginal/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZhbGlkYXRpb25TY3JpcHRzUGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Users/ruxiii/OneDrive/Desktop/facultate/2.1/DAW/SchoolChat/SchoolChatOriginal/Areas/Identity/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Users/ruxiii/OneDrive/Desktop/facultate/2.1/DAW/SchoolChat/SchoolChatOriginal/Areas/Identity/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Users/ruxiii/OneDrive/Desktop/facultate/2.1/DAW/SchoolChat/SchoolChatOriginal/Views/ApplicationUsers/Done.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXBwbGljYXRpb25Vc2Vyc1xEb25lLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Users/ruxiii/OneDrive/Desktop/facultate/2.1/DAW/SchoolChat/SchoolChatOriginal/Views/ApplicationUsers/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXBwbGljYXRpb25Vc2Vyc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Users/ruxiii/OneDrive/Desktop/facultate/2.1/DAW/SchoolChat/SchoolChatOriginal/Views/ApplicationUsers/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXBwbGljYXRpb25Vc2Vyc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Users/ruxiii/OneDrive/Desktop/facultate/2.1/DAW/SchoolChat/SchoolChatOriginal/Views/ApplicationUsers/Show.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXBwbGljYXRpb25Vc2Vyc1xTaG93LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Users/ruxiii/OneDrive/Desktop/facultate/2.1/DAW/SchoolChat/SchoolChatOriginal/Views/Categories/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmllc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Users/ruxiii/OneDrive/Desktop/facultate/2.1/DAW/SchoolChat/SchoolChatOriginal/Views/Categories/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmllc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Users/ruxiii/OneDrive/Desktop/facultate/2.1/DAW/SchoolChat/SchoolChatOriginal/Views/Categories/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmllc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Users/ruxiii/OneDrive/Desktop/facultate/2.1/DAW/SchoolChat/SchoolChatOriginal/Views/Categories/New.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmllc1xOZXcuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Users/ruxiii/OneDrive/Desktop/facultate/2.1/DAW/SchoolChat/SchoolChatOriginal/Views/Categories/Show.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmllc1xTaG93LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Users/ruxiii/OneDrive/Desktop/facultate/2.1/DAW/SchoolChat/SchoolChatOriginal/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Users/ruxiii/OneDrive/Desktop/facultate/2.1/DAW/SchoolChat/SchoolChatOriginal/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Users/ruxiii/OneDrive/Desktop/facultate/2.1/DAW/SchoolChat/SchoolChatOriginal/Views/Messages/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVzc2FnZXNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Users/ruxiii/OneDrive/Desktop/facultate/2.1/DAW/SchoolChat/SchoolChatOriginal/Views/Messages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVzc2FnZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Users/ruxiii/OneDrive/Desktop/facultate/2.1/DAW/SchoolChat/SchoolChatOriginal/Views/Messages/New.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVzc2FnZXNcTmV3LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Users/ruxiii/OneDrive/Desktop/facultate/2.1/DAW/SchoolChat/SchoolChatOriginal/Views/Messages/Show.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVzc2FnZXNcU2hvdy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Users/ruxiii/OneDrive/Desktop/facultate/2.1/DAW/SchoolChat/SchoolChatOriginal/Views/SchoolGroups/AnaAreMere.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2Nob29sR3JvdXBzXEFuYUFyZU1lcmUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Users/ruxiii/OneDrive/Desktop/facultate/2.1/DAW/SchoolChat/SchoolChatOriginal/Views/SchoolGroups/Communicate.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2Nob29sR3JvdXBzXENvbW11bmljYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Users/ruxiii/OneDrive/Desktop/facultate/2.1/DAW/SchoolChat/SchoolChatOriginal/Views/SchoolGroups/Done.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2Nob29sR3JvdXBzXERvbmUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Users/ruxiii/OneDrive/Desktop/facultate/2.1/DAW/SchoolChat/SchoolChatOriginal/Views/SchoolGroups/Enlarge.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2Nob29sR3JvdXBzXEVubGFyZ2UuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Users/ruxiii/OneDrive/Desktop/facultate/2.1/DAW/SchoolChat/SchoolChatOriginal/Views/SchoolGroups/Find.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2Nob29sR3JvdXBzXEZpbmQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Users/ruxiii/OneDrive/Desktop/facultate/2.1/DAW/SchoolChat/SchoolChatOriginal/Views/SchoolGroups/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2Nob29sR3JvdXBzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Users/ruxiii/OneDrive/Desktop/facultate/2.1/DAW/SchoolChat/SchoolChatOriginal/Views/SchoolGroups/New.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2Nob29sR3JvdXBzXE5ldy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Users/ruxiii/OneDrive/Desktop/facultate/2.1/DAW/SchoolChat/SchoolChatOriginal/Views/SchoolGroups/Opportunities.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2Nob29sR3JvdXBzXE9wcG9ydHVuaXRpZXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Users/ruxiii/OneDrive/Desktop/facultate/2.1/DAW/SchoolChat/SchoolChatOriginal/Views/SchoolGroups/Show.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2Nob29sR3JvdXBzXFNob3cuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Users/ruxiii/OneDrive/Desktop/facultate/2.1/DAW/SchoolChat/SchoolChatOriginal/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Users/ruxiii/OneDrive/Desktop/facultate/2.1/DAW/SchoolChat/SchoolChatOriginal/Views/Shared/GroupInfo.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEdyb3VwSW5mby5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Users/ruxiii/OneDrive/Desktop/facultate/2.1/DAW/SchoolChat/SchoolChatOriginal/Views/Shared/_LoginPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Users/ruxiii/OneDrive/Desktop/facultate/2.1/DAW/SchoolChat/SchoolChatOriginal/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Users/ruxiii/OneDrive/Desktop/facultate/2.1/DAW/SchoolChat/SchoolChatOriginal/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Users/ruxiii/OneDrive/Desktop/facultate/2.1/DAW/SchoolChat/SchoolChatOriginal/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Users/ruxiii/OneDrive/Desktop/facultate/2.1/DAW/SchoolChat/SchoolChatOriginal/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-b8eni4oy7p
